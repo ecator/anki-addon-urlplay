@@ -24,7 +24,7 @@ def review_link_handler_wrapper(reviewer, url):
             # use mpv directly
             mpvManager.command("loadfile", url[7:], "append-play")
     else:
-        original_review_link_handler(reviewer, url)
+        return original_review_link_handler(reviewer, url)
 
 original_review_link_handler = Reviewer._linkHandler
 Reviewer._linkHandler = review_link_handler_wrapper
