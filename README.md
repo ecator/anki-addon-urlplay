@@ -1,3 +1,5 @@
+# Anki has supported audio tag from version 2.1.16 , so this is out of date.
+
 # anki-addon-urlplay
 
 Play audio from internet for anki 2.1.x
